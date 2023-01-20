@@ -1,0 +1,9 @@
+version: "3.7"
+
+
+services:
+  thetoad:
+    build:
+      context: ./docker
+    ports:
+      - 5000:5000
